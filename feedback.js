@@ -142,4 +142,16 @@ using ms_trades and ms_stock_performances , ms_open_lots , ms_instruments , ms_c
 8. 1. Remove 'p&l' from 'ms_trades' in both schema and in code. It is not needed.
 
 take your time and update the schema accordingly ?
+
+
+
+
+
+
+
+
+
+
+
+update the above rpc function make sure the flow is same and also follow all teh instrunction provided as 
 */

@@ -9,10 +9,6 @@ async function getAllInstruments() {
         symbol,
         name,
         industry,
-        ms_stock_performances (
-          close_price_1d,
-          updated_at
-        )
       `)
       .order('name', { ascending: true })  // Alphabetically sorted
 
@@ -31,7 +27,6 @@ async function getAllInstruments() {
       return {
         symbol: instrument.symbol,
         name: instrument.name,
-        close_price_1d: latestPerformance?.close_price_1d?.toString() || '0',
         industry: instrument.industry || 'N/A'
       }
     })
@@ -49,6 +44,3 @@ async function getAllInstruments() {
   }
 }
 
-// Usage
-const allInstruments = await getAllInstruments()
-console.log(allInstruments)

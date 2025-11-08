@@ -14,20 +14,20 @@
     "success": true,
     "data": {
       "user": {
-        "userId":"uuid",
+        "userId": "uuid",
         "name": "yash",
-        "roi1d":"10",
-        "roi1w":"10",
-        "roi1m":"10",
-        "roi6m":"10",
-        "roi1y":"10",
-        "roi1ytd":"10",
-        "roiall":"10",
+        "roi1d": "10",
+        "roi1w": "10",
+        "roi1m": "10",
+        "roi6m": "10",
+        "roi1y": "10",
+        "roi1ytd": "10",
+        "roiall": "10",
         "availableCash": 1234,
-        "winRate":"90",
-        "holdings":10,
-        "averageHoldingTime":"10d",
-         "portfolioValue":78000
+        "winRate": "90",
+        "holdings": 10,
+        "averageHoldingTime": "10d",
+        "portfolioValue": 78000
       },
       "instruments": [
         {
@@ -151,7 +151,7 @@
         "age": 19,
         "followersCount": 10,
         "followingCount": 10,
-        "marketTags":["banking expert" ,  "it Specialist" ,  "top taders"] ,
+        "marketTags": ["banking expert", "it Specialist", "top taders"],
         "allTimeRoi": 10,
         "monthlyRoi": 10,
         "totalTrades": 249,
@@ -167,51 +167,47 @@
   "update-user": {
     "name": "Rakesh Sharma"
   },
-  
+
   "update-user-response": {
     "success": true,
     "message": "User info updated successfully"
   },
-  "watchList-get":{
-"success": true,
-"data":[
-  {
-    "symbol": "REL",
-    "name":"Reliance",
-    "exchange":"NSE",
-    "closePrice":"1000",
-    "industry":"OIL AND GAS"
-  },{
-    "symbol": "TCS",
-    "name":"Tata consultancy services",
-    "exchange":"NSE",
-    "closePrice":"1000",
-    "industry":"OIL AND GAS"
-  }
-]
-  }
-,
+  "watchList-get": {
+    "success": true,
+    "data": [
+      {
+        "symbol": "REL",
+        "name": "Reliance",
+        "exchange": "NSE",
+        "closePrice": "1000",
+        "industry": "OIL AND GAS"
+      },
+      {
+        "symbol": "TCS",
+        "name": "Tata consultancy services",
+        "exchange": "NSE",
+        "closePrice": "1000",
+        "industry": "OIL AND GAS"
+      }
+    ]
+  },
   "market": {
     "success": true,
     "data": [
       {
         "symbol": "REL",
         "name": "Reliance",
-        "closePrice1d": "1000",
+        "closePrice1d": "2000",
         "industry": "OIL AND GAS",
-        "updatedAt":"10 jan 2025 10:20:29",
-        "exchange":"NSE"
+        "exchange": "NSE"
       },
       {
         "symbol": "TCS",
         "name": "Tata consultancy services",
         "closePrice1d": "2000",
         "industry": "OIL AND GAS",
-        "updatedAt":"10 jan 2025 10:20:29",
-        "exchange":"NSE"
+        "exchange": "NSE"
       }
     ]
   }
 }
-
-
